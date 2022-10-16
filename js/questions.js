@@ -1,7 +1,7 @@
 const myQuestions = [
   {
     title: "Question 1 - Running Late",
-    question: "You receive a phone call at 8:30 AM the day before your scheduled meeting tagged for Thursday, October 2nd at 10:00 AM and are told it is a two minute ride to the ninth floor from the lobby.  You exit your Uber eleven minutes late and you check-in the lobby at the front desk five minutes after exiting the Uber.  You take the elevator to the conference room where the meeting is being held.  How late are you to the meeting?<p>Select your answer then Confirm.</p>",
+    question: "You receive a call at 8:30 AM the day before your meeting tagged for Thursday, October 2nd at 10:00 AM and are told it is a two minute ride to the ninth floor from the lobby.  You exit your Uber eleven minutes late and you check-in the lobby at the front desk five minutes after exiting the Uber.  You take the elevator to the conference room where the meeting is being held.  How late are you to the meeting?",
     background: "<img src='https://deonec.github.io/hysp.menu/img/bg_slide1.jpg'>",
     answers: {
       a: "13 minutes.",
@@ -14,7 +14,7 @@ const myQuestions = [
   },
   {
     title: "Question 2 - Scheduled Meeting",
-    question: "What time did you arrive to the meeting?<p>Select your answer then Confirm.</p>",
+    question: "What time did you arrive to the meeting?",
     background: "<img src='https://deonec.github.io/hysp.menu/img/bg_slide2.jpg'>",
     answers: {
       a: "10:13 AM.",
@@ -27,7 +27,7 @@ const myQuestions = [
   },
   {
     title: "Question 3 - Elevator Ride",
-    question: "What floor is the scheduled meeting?</p><p>Select your answer then Confirm.</p>",
+    question: "What floor is the scheduled meeting?",
     background: "<img src='https://deonec.github.io/hysp.menu/img/bg_slide3.jpg'>",
     answers: {
       a: "Floor 2.",
@@ -40,7 +40,7 @@ const myQuestions = [
   },
   {
     title: "Question 4 - Meeting Location",
-    question: "Where was the meeting location?<p>Select your answer then Confirm.</p>",
+    question: "Where was the meeting location?",
     background: "<img src='https://deonec.github.io/hysp.menu/img/bg_slide4.jpg'>",
     answers: {
       a: "The Uber",
