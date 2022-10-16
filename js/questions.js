@@ -1,7 +1,7 @@
 const myQuestions = [
   {
     title: "Question 1 - Running Late",
-    question: "You receive a phone call at 8:30 AM the day before your scheduled meeting tagged for Thursday, October 2nd at 10:00 AM on the ninth floor and are informed it takes roughly two minutes to arrive to the ninth floor from the lobby.  You exit your Uber ride eleven minutes late to the meeting and you check-in in the lobby at the front desk five minutes after exiting the Uber.  You take the elevator to the conference room where the meeting is being held.  How late are you to the meeting.<p>Select your answer then Confirm.</p>",
+    question: "You receive a phone call at 8:30 AM the day before your scheduled meeting tagged for Thursday, October 2nd at 10:00 AM and are told it is a two minute ride to the ninth floor from the lobby.  You exit your Uber eleven minutes late and you check-in the lobby at the front desk five minutes after exiting the Uber.  You take the elevator to the conference room where the meeting is being held.  How late are you to the meeting?<p>Select your answer then Confirm.</p>",
     background: "<img src='https://deonec.github.io/hysp.menu/img/bg_slide1.jpg'>",
     answers: {
       a: "13 minutes.",
