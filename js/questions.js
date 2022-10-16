@@ -54,7 +54,7 @@ const myQuestions = [
   {
     title: "Question 5 - Phone Call",
     question: "What date did you receive the phone call?<p>Select your answer then Confirm.</p>",
-    background: "<img src='https://deonec.github.io/hysp.menu/img/bg_slide4.jpg'>",
+    background: "<img src='https://deonec.github.io/hysp.menu/img/bg_slide5.gif'>",
     answers: {
       a: "10/01",
       b: "10/02",
