@@ -10,7 +10,7 @@ body {
     color: #73879C;
     background: #EDEDED;
     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 1.471;
 }
@@ -20,7 +20,7 @@ h2{
     margin-bottom: 30px;
 }
 p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 21px;
     margin-bottom: 12px;
 }
