@@ -227,11 +227,11 @@ function showAnswer() {
 
     // show number of correct answers out of total
     if (numCorrect === quizLength) {
-    resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Congratulations!</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>Very good, you seem to be a pro!</p><p>You answered ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="http://geobon.org"><button class="btn btn-default">My Dashboard</button></a></div>`;
+    resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Congratulations!</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>Excellent! You took it like a Professional!</p><p>You answered ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="https://www.hypersoup.com/greetings"><button class="btn btn-default">Make me a custom quiz</button></a></div>`;
     } else if (numCorrect >= quizHalf && numCorrect < quizLength ) {
-      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Not bad...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>but not enough to be a winner.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="./index.html"><button id="playAgain" class="btn btn-default">Play again</button></a></div>`;
+      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Kudos!</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>but not 100%!.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="./index.html"><button id="playAgain" class="btn btn-default">Retake This Quiz</button></a></div>`;
     } else {
-      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>Very bad...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>You need to practice! All employees need to be familiar with the iDiv Health & Security rules.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="./index.html"><button id="playAgain" class="btn btn-default">Play again</button></a></div>`;
+      resultsContainer.innerHTML = `<div class="wow slideInDown"><h2>So, um...</h2></div><div class="wow fadeIn" data-wow-delay="1s" data-wow-duration="2s"><p>There are no words to describe your failure.</p><p>You answered just ${numCorrect} out of ${myQuestions.length} questions correct.</p><a href="./index.html"><button id="playAgain" class="btn btn-default">Retake</button></a></div>`;
     }
     
     // switch off Title, Question and Answers
