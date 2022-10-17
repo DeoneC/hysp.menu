@@ -49,7 +49,7 @@ const myQuestions = [
     },
     correctAnswer: "c",
     correctAnswerText: "AFFIRMATIVE!<p>The scheduled meeting was in the conference room.</p>",
-    falseAnswerText: "NEGATIVVE!<p>Hint:  What room is on the ninth floor?</p>"
+    falseAnswerText: "NEGATIVE!<p>Hint:  What room is on the ninth floor?</p>"
   },
   {
     title: "Question 5 - Phone Call",
